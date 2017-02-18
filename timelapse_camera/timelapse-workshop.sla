@@ -33,7 +33,7 @@
         <COLOR NAME="White" CMYK="#00000000" Spot="0" Register="0"/>
         <COLOR NAME="Yellow" CMYK="#0000ff00" Spot="0" Register="0"/>
         <HYPHEN/>
-        <STYLE NAME="Default Paragraph Style" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
+        <STYLE NAME="Default Paragraph Style" DefaultStyle="1" ALIGN="0" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="0" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0"/>
         <STYLE NAME="ImportedDefault Paragraph Style (template)" ALIGN="3" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="4" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" OpticalMargins="14" MinGlyphShrink="0.95" CPARENT="Default Character Style" FONT="Arial Regular"/>
         <STYLE NAME="Callout" PARENT="ImportedDefault Paragraph Style (template)" FONTSIZE="10"/>
         <STYLE NAME="Heading" PARENT="ImportedDefault Paragraph Style (template)" VOR="12" NACH="0" FONT="Bebas Neue Regular" FONTSIZE="20"/>
@@ -47,7 +47,7 @@
             <Tabs Type="0" Pos="20" Fill=""/>
         </STYLE>
         <STYLE NAME="Copy of Default Paragraph Style (2)" ALIGN="3" LINESPMode="0" LINESP="15" INDENT="0" RMARGIN="0" FIRST="0" VOR="4" NACH="0" DROP="0" DROPLIN="2" DROPDIST="0" OpticalMargins="14"/>
-        <CHARSTYLE CNAME="Default Character Style" FONT="Arial Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
+        <CHARSTYLE CNAME="Default Character Style" DefaultStyle="1" FONT="Arial Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <CHARSTYLE CNAME="ImportedDefault Character Style (template)" FONT="Arial Regular" FONTSIZE="12" FEATURES="inherit" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" LANGUAGE="English"/>
         <CHARSTYLE CNAME="Code" CPARENT="ImportedDefault Character Style (template)" FONT="Arial Regular" KERN="-5" wordTrack="1"/>
         <CHARSTYLE CNAME="Commands" CPARENT="ImportedDefault Character Style (template)" FONT="Arial Regular" FEATURES="underline" FCOLOR="Black" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="90" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" KERN="-5" wordTrack="0.9"/>
@@ -511,7 +511,7 @@
             <para/>
             <para/>
             <ITEXT CH="system("/>
-            <ITEXT FCOLOR="10907 Green" FSHADE="100" CH="'convert -delay 10 -loop 0 image*.jpg animation.gif'"/>
+            <ITEXT FCOLOR="10907 Green" FSHADE="100" CH="'convert -delay 10 -loop 0 /home/pi/Desktop/image*.jpg  \ /home/pi/Desktop/animation.gif'"/>
             <ITEXT CH=")"/>
             <para/>
             <ITEXT CH="print("/>
@@ -583,7 +583,7 @@
             <para/>
             <para/>
             <ITEXT CH="system("/>
-            <ITEXT FCOLOR="10907 Green" FSHADE="100" CH="'convert -delay 10 -loop 0 image*.jpg animation.gif'"/>
+            <ITEXT FCOLOR="10907 Green" FSHADE="100" CH="'convert -delay 10 -loop 0 /home/pi/Desktop/image*.jpg \ /home/pi/Desktop/animation.gif'"/>
             <ITEXT CH=")"/>
             <para/>
             <ITEXT CH="print("/>
