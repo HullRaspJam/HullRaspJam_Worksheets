@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import time
 import random
 import os
@@ -21,5 +22,5 @@ def randomHouse():
         time.sleep(1)
 
 while True:
-    if btn.is_pressed():
+    if btn.is_pressed:
         randomHouse()
