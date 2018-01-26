@@ -4,7 +4,7 @@ import random
 import os
 from gpiozero import Button
 
-btn = Button(27)
+btn = Button(17)
 
 def randomHouse():
     number = random.randint(1, 4)
